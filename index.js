@@ -15,13 +15,13 @@ function destructivelyPrependCat(name) {
 
 //removes the last cat from the cats array
 function destructivelyRemoveLastCat() {
-    cats.pop("Garfield");
+    cats.pop();
 
 }
 
 //removes the last cat from the cats array
 function destructivelyRemoveFirstCat() {
-    cats.shift("Milo");
+    cats.shift();
 }
 
 //appends a cat to the cats array and returns a new array, leaving the cats array unchanged
